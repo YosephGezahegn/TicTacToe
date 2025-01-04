@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic Tac Toe</title>
+  <title>Tic Tac Toe vs AI</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Tic Tac Toe</h1>
+    <h1>Tic Tac Toe vs AI</h1>
     <div class="scoreboard">
-      <div class="score x-score">X: <span>0</span></div>
-      <div class="score o-score">O: <span>0</span></div>
+      <div class="score x-score">You (X): <span>0</span></div>
+      <div class="score o-score">AI (O): <span>0</span></div>
     </div>
     <div id="board" class="board"></div>
     <div id="status" class="status"></div>
-    <button id="resetBtn">New Game</button>
+    <div class="buttons">
+      <button id="resetBtn">New Game</button>
+      <button id="difficultyBtn">AI: Hard</button>
+    </div>
   </div>
   <script type="module" src="/main.js"></script>
 </body>
